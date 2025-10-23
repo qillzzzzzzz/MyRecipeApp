@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- HEADER -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="12dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/makenew_toolbar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                app:navigationIcon="@drawable/ic_arrow_back"
+                android:background="@android:color/transparent" />
+
+            <EditText
+                android:id="@+id/etTitle"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="Judul resep"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:background="@drawable/button_judul"
+                android:padding="8dp"
+                android:textColor="@color/cooki_brown"
+                android:textSize="22sp"
+                android:fontFamily="@font/vanilla_caramel" />
+        </FrameLayout>
+
+        <!-- BACKGROUND PUTIH TRANSPARAN -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_putih"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- BUTTON TAMBAH FOTO -->
+            <FrameLayout
+                android:id="@+id/btnTambahFoto"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_button_rounded">
+
+                <ImageView
+                    android:id="@+id/ivPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:visibility="gone"
+                    android:contentDescription="Preview Foto" />
+
+                <TextView
+                    android:id="@+id/tvTambahFoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tambahkan Foto"
+                    android:textColor="@color/cooki_brown_dark"
+                    android:fontFamily="@font/vanilla_caramel"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:id="@+id/iconCamera"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/ic_camera"
+                    android:contentDescription="Tambah Foto" />
+            </FrameLayout>
+
+            <!-- EXPANDABLE CONTAINER -->
+            <LinearLayout
+                android:id="@+id/expandableContainer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="4dp"
+                android:paddingTop="4dp" />
+
+            <!-- BUTTON SAVE -->
+            <Button
+                android:id="@+id/btnSave"
+                android:text="@string/save_chge"
+                android:backgroundTint="#9C6644"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

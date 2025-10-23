@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warna saat ditekan -->
+    <item android:color="@color/white" android:state_pressed="true" />
+    <!-- Warna default -->
+    <item android:color="@color/cooki_brown_dark" />
+</selector>

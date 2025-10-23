@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/bg_input_cookie"
+    android:padding="8dp">
+
+    <!-- Header (tombol judul dropdown) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Section"
+        android:textColor="@color/cooki_brown"
+        android:padding="12dp"
+        style="@style/Widget.MaterialComponents.Button"
+        app:backgroundTint="@color/coksu"
+        app:icon="@drawable/ic_arrow_down"
+        app:iconGravity="end"
+        app:iconPadding="8dp"/>
+
+
+    <!-- Isi konten yang bisa disembunyikan -->
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:background="@drawable/btn_brown_dropdown_active">
+
+        <EditText
+            android:id="@+id/etIsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="64dp"
+            android:gravity="top"
+            android:hint="tambahkan teks"
+            android:textColorHint="@color/white"
+            android:background="@android:color/transparent"
+            android:textColor="@color/coksu"
+            android:textSize="16sp"
+            android:fontFamily="@font/vanilla_caramel"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</LinearLayout>

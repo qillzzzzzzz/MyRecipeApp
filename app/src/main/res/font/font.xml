@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:fontFamily="@font/chewy_regular" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:fontFamily="@font/justanotherhand_regular"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:fontFamily="@font/josefinsans_regular"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:fontFamily="@font/game_bubble" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:fontFamily="@font/super_trend" />
+</font-family>

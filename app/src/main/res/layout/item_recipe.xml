@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#FFF3E6">
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Gambar Resep -->
+        <ImageView
+            android:id="@+id/imgRecipe"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/toast_bread"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/resepx" />
+
+        <!-- Konten kanan -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvRecipeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resepx"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#5C2C06"
+                android:fontFamily="@font/pulang" />
+
+            <TextView
+                android:id="@+id/tvRecipeDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deskripsi"
+                android:textSize="16sp"
+                android:textColor="#5C2C06"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/vanilla_caramel" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btnCook"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:text="Cook"
+                    android:textSize="20sp"
+                    android:backgroundTint="#C89264"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/vanilla_caramel" />
+
+                <ImageView
+                    android:id="@+id/icFav"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/ic_favorite_filled"
+                    android:contentDescription="Favorite" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

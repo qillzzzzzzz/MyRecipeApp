@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warna saat item aktif -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#C48F6E" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- Warna saat item tidak aktif -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+</selector>

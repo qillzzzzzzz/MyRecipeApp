@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recipe app</string>
+    <string name="CookiTime">CookiTime</string>
+    <string name="cookitime_logo">CookiTime Logo</string>
+    <string name="default_web_client_id">394361839773-172a2eefilkves2l5oam7mg9sif1bjrg.apps.googleusercontent.com</string>
+    <string name="My_Recipe">My Recipe</string>
+    <string name="resepx">Toast Bread</string>
+    <string name="save_chge">Save Change</string>
+    <string name="deskripsi">A simple lunch for you...</string>
+    <string name="cook">cook</string>
+    <string name="favorite">favorite</string>
+    <string name="back">back</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="Emailaddres">Email addres</string>
+    <string name="Password">Password</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="UserName">User Name"</string>
+
+</resources>

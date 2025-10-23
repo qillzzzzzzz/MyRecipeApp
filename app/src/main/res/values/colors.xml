@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cooki_brown">#7C4623</color>
+    <color name="cooki_brown_dark">#6A3518</color>
+    <color name="coklat_muda">#C48F6E</color>
+    <color name="coksu">#CB9A7C</color>
+    <color name="cooki_brown_dark2">#5B3A2A</color>
+    <color name="cooki_brown_light">#9C6644</color>
+    <color name="cooki_bg">#D39A73</color>
+</resources>
